@@ -1,0 +1,14 @@
+DBS- Electronic record keeping system
+Database- A collection of persistent data regarding an enterprise
+	inputs and outputs persistent data
+	
+Data Integrity- all data is correct
+DBMS- intercepts queries, checks validity of queries, carries out queries and 
+returns results
+1st NF - Every attribute is atomic
+2nd NF - Every attribute is fully functionally dependent on primary key
+3rd NF - If it is in 2nd NF and every non-key attribute is non-transitively 
+dependent on the primary key 
+BCNF - if every determinant is a candidate key
+4th NF - A relation R is in 4NF if whenever there is a nontrivial Multi-Value 
+Dependency of x ->-> y holds in R,then x is a superkey of R.
